@@ -1,0 +1,135 @@
+/* body{
+    background-color: aquamarine;
+} */
+body{
+    background: url('../img/cricket.jpg');
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    font-family: cursive;
+    
+    
+}
+
+.left img{
+    width: 90px;
+    
+    
+}
+.left{
+    font-size: 10px;
+
+}
+.navbar{
+    display: inline-block;
+    padding: 5px;
+
+}
+.navbar li{
+    display: inline-block;
+    font-size: 5px;
+    text-align: center;
+    
+}
+.navbar li a{
+    text-align: center;
+    margin: 0px;
+    font-size: 10px;
+    padding: 6px;
+}
+ 
+ .left{
+    
+     display: inline-block;
+     position: absolute;
+     margin: 6px 5px;
+     color: white;
+     width: 40px;
+    
+
+
+ }
+ .mid li a:hover{
+     color: blue;
+     background-color: chartreuse;
+     font-size: 40px;
+
+ }
+ .right{
+    
+     position: absolute;
+     right: 34px;
+     top: 35px;
+     color: white;
+     width: 100px;
+     
+    
+     display: inline-block;
+
+
+ }
+ .right btn{
+     width: 200px;
+ }
+ .mid{
+     
+     display: block;
+     width: 100%;
+     margin: auto;
+     color: cyan;
+     text-align: center;
+     
+
+ }
+ .btn{
+     margin: 0px 9px;
+     background-color: black;
+     color: white;
+     padding: 1px;
+     border-radius: 22px;
+     border: 1px solid white;
+     font-size: 11px;
+ }
+ .btn:hover{
+     cursor: pointer;
+     background-color: cyan;
+     color: black;
+ }
+ .container{
+     border: 2px solid white;
+     width: 600px;
+     margin: 230px 700px;
+     padding: 30px 50px;
+     font-family: sans-serif;
+     font-style: normal;
+     font-size: 10px;
+     border-radius: 22px;
+    
+     
+
+ }
+ .form btn{
+     margin-right: 210px;
+     width: 200px;
+
+ }
+ .form input{
+     text-align: center;
+     margin: 3px auto;
+     width: 50%;
+     border: 2px solid white;
+     border-radius: 20px;
+     padding: 15px;
+ }
+ .container h1{
+    color: black;
+    background-color: yellow;
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 10px;
+    /* width: 30px; */
+    padding: 5px;
+}
+input [type='text']{
+    background-color: chartreuse;
+    color: blue;
+}
